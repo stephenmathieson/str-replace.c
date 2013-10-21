@@ -1,0 +1,12 @@
+{
+  "name": "str-replace",
+  "version": "0.0.1",
+  "repo": "stephenmathieson/str-replace.c",
+  "description": "String replacement in C",
+  "keywords": [ "string", "replace" ],
+  "license": "MIT",
+  "src": [
+    "src/str-replace.c",
+    "src/str-replace.h"
+  ]
+}
