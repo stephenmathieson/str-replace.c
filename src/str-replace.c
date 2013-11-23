@@ -9,31 +9,26 @@
 #include <stdlib.h>
 #include <string.h>
 #include "str-copy.h"
+#include "occurrences.h"
 #include "str-replace.h"
 
 /*
- * Replace all occurances of `sub` with `replace` in `str`
+ * Replace all occurrences of `sub` with `replace` in `str`
  */
 
 char *str_replace(char *str, char *sub, char *replace) {
   char *pos = str;
-  int occurrences = 0;
+  int count = occurrences(sub, str);
 
-  // find all occurrences
-  while ((pos = strstr(pos, sub))) {
-    pos += strlen(sub);
-    occurrences++;
-  }
-
-  if (occurrences == 0) {
+  if (0 >= count) {
     char *result = str_copy(str);
     return result;
   }
 
   int size = (
         strlen(str)
-      - (strlen(sub) * occurrences)
-      + strlen(replace) * occurrences
+      - (strlen(sub) * count)
+      + strlen(replace) * count
     ) + 1;
 
   char *result = (char *) malloc(size);

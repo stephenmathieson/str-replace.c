@@ -13,7 +13,7 @@
 
 ### `char *str_replace(char *str, char *sub, char *replace)`
 
-  Replace all occurances of `sub` with `replace` in `str`
+  Replace all occurrences of `sub` with `replace` in `str`
 
 ## License
 
