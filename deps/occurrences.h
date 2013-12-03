@@ -10,6 +10,6 @@
 #ifndef __OCCURRENCES__
 #define __OCCURRENCES__ 1
 
-int occurrences(char *, char *);
+int occurrences(const char *, const char *);
 
 #endif

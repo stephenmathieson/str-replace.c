@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <assert.h>
-#include "src/str-replace.h"
+#include "str-replace.h"
 
 
 void test_single_match() {

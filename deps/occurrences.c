@@ -14,10 +14,10 @@
  * Get the number of occurrences of `needle` in `haystack`
  */
 
-int occurrences(char *needle, char *haystack) {
+int occurrences(const char *needle, const char *haystack) {
   if (NULL == needle || NULL == haystack) return -1;
 
-  char *pos = haystack;
+  char *pos = (char *)haystack;
   int i = 0;
   int l = strlen(needle);
 
