@@ -10,6 +10,6 @@
 #ifndef STR_REPLACE
 #define STR_REPLACE
 
-char *str_replace(char *str, char *sub, char *replace);
+char *str_replace(const char *str, const char *sub, const char *replace);
 
 #endif
