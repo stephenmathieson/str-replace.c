@@ -1,6 +1,6 @@
 {
   "name": "str-replace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repo": "stephenmathieson/str-replace.c",
   "description": "String replacement in C",
   "keywords": [ "string", "replace" ],
@@ -8,9 +8,7 @@
   "src": [
     "src/str-replace.c",
     "src/str-replace.h",
-    "src/str-copy.c",
-    "src/str-copy.h",
-    "src/occurrences.c",
-    "src/occurrences.h"
+    "deps/occurrences.c",
+    "deps/occurrences.h"
   ]
 }
