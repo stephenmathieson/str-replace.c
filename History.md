@@ -1,4 +1,8 @@
 
+# 0.0.4
+
+  * Update to work with latest clib(1)
+
 # 0.0.3
 
   * Fix package.json
