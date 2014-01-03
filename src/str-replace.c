@@ -8,14 +8,15 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include "occurrences.h"
+#include "occurrences/occurrences.h"
 #include "str-replace.h"
 
 /*
  * Replace all occurrences of `sub` with `replace` in `str`
  */
 
-char *str_replace(const char *str, const char *sub, const char *replace) {
+char *
+str_replace(const char *str, const char *sub, const char *replace) {
   char *pos = (char *) str;
   int count = occurrences(sub, str);
 

@@ -1,9 +1,14 @@
 
-SRC = $(wildcard src/*.c)
-SRC += $(wildcard deps/*.c)
+SRC     = $(wildcard src/*.c)
+SRC    += $(wildcard deps/*/*.c)
+CFLAGS  = -std=c99 -Ideps -Isrc
+CFLAGS += -Wall -Wextra
 
-test: test/test.c $(SRC)
-	$(CC) -std=c99 $^ -o test-replace -Ideps -Isrc -Wall
+test-replace: test/test.c $(SRC)
+	$(CC) $(CFLAGS) $^ -o test-replace
 	./test-replace
 
-.PHONY: test
+clean:
+	rm -f test-replace
+
+.PHONY: clean

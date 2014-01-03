@@ -7,8 +7,8 @@
 //
 
 
-#ifndef STR_REPLACE
-#define STR_REPLACE
+#ifndef STR_REPLACE_H
+#define STR_REPLACE_H
 
 char *str_replace(const char *str, const char *sub, const char *replace);
 

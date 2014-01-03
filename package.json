@@ -7,8 +7,12 @@
   "license": "MIT",
   "src": [
     "src/str-replace.c",
-    "src/str-replace.h",
-    "deps/occurrences.c",
-    "deps/occurrences.h"
-  ]
+    "src/str-replace.h"
+  ],
+  "dependencies": {
+    "stephenmathieson/occurrences.c": "*"
+  },
+  "development": {
+    "stephenmathieson/describe.h": "*"
+  }
 }
