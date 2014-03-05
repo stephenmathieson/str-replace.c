@@ -31,6 +31,7 @@ str_replace(const char *str, const char *sub, const char *replace) {
 
   char *result = (char *) malloc(size);
   if (NULL == result) return NULL;
+  memset(result, '\0', size);
   char *current;
   while ((current = strstr(pos, sub))) {
     int len = current - pos;
