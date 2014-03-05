@@ -10,7 +10,8 @@
     "src/str-replace.h"
   ],
   "dependencies": {
-    "stephenmathieson/occurrences.c": "*"
+    "stephenmathieson/occurrences.c": "*",
+    "stephenmathieson/str-copy.c": "*"
   },
   "development": {
     "stephenmathieson/describe.h": "*"
