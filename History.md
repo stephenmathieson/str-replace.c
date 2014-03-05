@@ -1,4 +1,13 @@
 
+0.0.5 / 2014-03-05
+==================
+
+ * Refactor makefile
+ * Fix travis setup
+ * Fix uninitialised value warning
+ * Free results in tests
+ * Use str-copy rather than strdup
+
 0.0.4 / 2014-01-02
 ==================
 
