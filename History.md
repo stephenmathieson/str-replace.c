@@ -1,4 +1,11 @@
 
+0.0.6 / 2016-01-17
+==================
+
+  * package,test: update `describe.h` to 2.0.2
+  * src,package: replace `str-copy` with `strdup`
+  * travis: Update before installing deps
+
 0.0.5 / 2014-03-05
 ==================
 
