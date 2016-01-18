@@ -14,6 +14,6 @@
     "clibs/strdup": "0.0.2"
   },
   "development": {
-    "stephenmathieson/describe.h": "1.0.0"
+    "stephenmathieson/describe.h": "2.0.2"
   }
 }
