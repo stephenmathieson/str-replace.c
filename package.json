@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "stephenmathieson/occurrences.c": "*",
-    "clibs/strdup": "0.0.2"
+    "clibs/strdup": "*"
   },
   "development": {
     "stephenmathieson/describe.h": "2.0.2"
